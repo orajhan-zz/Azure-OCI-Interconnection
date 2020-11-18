@@ -19,6 +19,7 @@ output.tf works only all is provisioned.
  1. mv output.tf.bak
  2. terraform apply
  3. you will see the details as follows:
- 4. Copy service Key from the output and paste it when FastConnect is created in Oracle Cloud to complete interconnection between FastConnect and ExpressRT 
- ![](images/output.png)
+ 4. Copy service Key from the output and paste it when FastConnect is created in Oracle Cloud to complete interconnection between FastConnect and ExpressRT
+
 ```
+ ![](images/output.png)
