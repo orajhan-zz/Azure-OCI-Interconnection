@@ -22,9 +22,9 @@ Only thing you need is to change CIDR if needed
 output.tf works only all is provisioned. I experienecd this with only Azure. 
 
 ```sh
-
+# workaround
  1. complete the existing terraform scripts without changing any. Once it's done, please go to step #2.
- 2. mv output.tf.bak
+ 2. mv output.tf.bak output.tf
  3. terraform apply
  4. you will see the details as follows:
  5. Copy service Key from the output and paste it when FastConnect is created in Oracle Cloud to complete interconnection between FastConnect and ExpressRT
