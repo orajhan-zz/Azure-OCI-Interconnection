@@ -2,11 +2,12 @@ variable "prefix" {
   default = "Azure-OCI"
 }
 
+# Select Oracle Cloud FastConnect as ExpressRT provider in Azure
 variable "fastconenct" {
   default = "Oracle Cloud FastConnect"
 }
 
-#OCI location
+#OCI location, currently I am using Tokyo
 variable "fastconenct-location" {
   type = map
     default = {

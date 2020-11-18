@@ -1,3 +1,4 @@
+# Create Public IP for VM
 resource "azurerm_public_ip" "VM-publicIP" {
   name                    = "${var.prefix}-VM-pip"
   location                = azurerm_resource_group.AzureRG.location
@@ -6,6 +7,7 @@ resource "azurerm_public_ip" "VM-publicIP" {
   idle_timeout_in_minutes = 30
 }
 
+# Create network interface for VM
 resource "azurerm_network_interface" "VMnic" {
   name                = "${var.prefix}-nic"
   resource_group_name = azurerm_resource_group.AzureRG.name
@@ -19,6 +21,7 @@ resource "azurerm_network_interface" "VMnic" {
   }
 }
 
+# Create a small VM for connectivity test
 resource "azurerm_linux_virtual_machine" "testVM" {
   name                            = "${var.prefix}-vm"
   resource_group_name             = azurerm_resource_group.AzureRG.name
