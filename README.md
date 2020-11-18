@@ -27,7 +27,7 @@ Default Region: Tokyo
 ```
 
 ### Known issue in Azure Terraform
-output.tf works only all is provisioned. I experienecd this behavior when using Azure provider.  
+output.tf works after only all is provisioned. I experienecd this behavior when using Azure provider. 
 
 ```sh
 # workaround
