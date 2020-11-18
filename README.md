@@ -7,19 +7,22 @@ Please refer to https://docs.oracle.com/en/solutions/learn-azure-oci-interconnec
 
 ### Prerequisite 
 
+Your will need Virtual Network Gateway, ExpressRT, Network Security Group, Route table, etc in Azure end. 
+Only thing you need is to change CIDR if needed
+There will be a test VM provision as B1ls that is the smallest shape. 
+
 1. update provider.tf with your Azure account details
 2. Terraform Plan
 3. Terraform Apply
 
-Feel free to change CIDR if needed
-
-### Known issue
+### Known issue in Azure Terraform
 output.tf works only all is provisioned. 
 ```sh
- 1. mv output.tf.bak
- 2. terraform apply
- 3. you will see the details as follows:
- 4. Copy service Key from the output and paste it when FastConnect is created in Oracle Cloud to complete interconnection between FastConnect and ExpressRT
+ 1. complete the existing terraform scripts without changing any. Once it's done, please go to step #2.
+ 2. mv output.tf.bak
+ 3. terraform apply
+ 4. you will see the details as follows:
+ 5. Copy service Key from the output and paste it when FastConnect is created in Oracle Cloud to complete interconnection between FastConnect and ExpressRT
 
 ```
  ![](images/output.png)
