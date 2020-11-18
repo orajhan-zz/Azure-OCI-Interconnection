@@ -2,6 +2,8 @@
 
 Oracle has partnered with Microsoft to provide low latency, private connectivity between Oracle Cloud and Microsoft Azure. 
 Please refer to https://docs.oracle.com/en/solutions/learn-azure-oci-interconnect/index.html#GUID-FBE38C70-A4CF-40C5-A37A-121241D21199
+
+
 I assume there is Oracle DB(ADB, DBaaS, or ExaCS) provisioned in Oracle Cloud, hence this Terraform will help you complete all prerequisites in Azure. 
 
 ![](images/overview.png)
