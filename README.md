@@ -43,5 +43,5 @@ output.tf works after only all is provisioned. I experienecd this behavior when 
 
 ### Expected cost in Azure for this demo
 This Azure Terraform will not cost more than 1 dollar with ExpressRT and others for 1~2 hours demo unless you let it run for 24 hours or more.
-There will be a test VM provision as B1ls that is the smallest shape at this moment.(USD 3.8 for a month, hence it will be less than 10 cents for this demo)
+There will be a test VM which will be automatically provisioned as B1ls that is the smallest shape at this moment.(USD 3.8 for a month, hence it will be less than 10 cents for this demo)
 ![](images/B1ls.png)
