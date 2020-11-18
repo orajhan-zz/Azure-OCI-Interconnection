@@ -19,7 +19,7 @@ Only thing you need is to change CIDR , Region if needed
 ```
 
 ### Known issue in Azure Terraform
-output.tf works only all is provisioned. I experienecd this with only Azure. 
+output.tf works only all is provisioned. I experienecd this behavior when using Azure provider.  
 
 ```sh
 # workaround
