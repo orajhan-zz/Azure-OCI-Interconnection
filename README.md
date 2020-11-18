@@ -22,7 +22,7 @@ Only thing you need is to change CIDR if needed
 output.tf works only all is provisioned. I experienecd this with only Azure. 
 
 ```sh
-# workaround
+
  1. complete the existing terraform scripts without changing any. Once it's done, please go to step #2.
  2. mv output.tf.bak
  3. terraform apply
