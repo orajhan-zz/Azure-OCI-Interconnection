@@ -14,8 +14,8 @@ Only thing you need is to change CIDR if needed
 1. update provider.tf with your Azure account details
 2. Terraform Plan
 3. Terraform Apply
-4. Log into VM in Azure
-5. Conenct to Database or VM running in Oracle Cloud
+4. Log into VM(Azure)
+5. Conenct to Database(Oracle Cloud)
 ```
 
 ### Known issue in Azure Terraform
