@@ -2,20 +2,25 @@
 
 Oracle has partnered with Microsoft to provide low latency, private connectivity between Oracle Cloud and Microsoft Azure. 
 Please refer to https://docs.oracle.com/en/solutions/learn-azure-oci-interconnect/index.html#GUID-FBE38C70-A4CF-40C5-A37A-121241D21199
+I assume there is Oracle DB(ADB, DBaaS, or ExaCS) provisioned in Oracle Cloud, hence this Terraform will help you complete all prerequisites in Azure. 
 
 ![](images/overview.png)
 
 ### Prerequisites in Azure
 
 Your will need Virtual Network Gateway, ExpressRT, Network Security Group, Route table, etc in Azure end. 
-Only thing you need is to change CIDR , Region if needed
+Only thing you need is to change CIDR , Region , shape if needed. 
+This terraform will use 50Mbps bandwidth for Express Route.
+
+Default CIDR: 10.1.0.0/16
+Default Region: Tokyo
 
 ```sh
 1. update provider.tf with your Azure account details
 2. Terraform Plan
 3. Terraform Apply
 4. Log into VM(Azure) 
-5. Conenct to Database(Oracle Cloud) if you have
+5. Conenct to Database(Oracle Cloud) 
 ```
 
 ### Known issue in Azure Terraform
