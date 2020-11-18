@@ -9,7 +9,6 @@ Please refer to https://docs.oracle.com/en/solutions/learn-azure-oci-interconnec
 
 Your will need Virtual Network Gateway, ExpressRT, Network Security Group, Route table, etc in Azure end. 
 Only thing you need is to change CIDR if needed
-There will be a test VM provision as B1ls that is the smallest shape. 
 ![](images/B1ls.png)
 
 1. update provider.tf with your Azure account details
@@ -27,3 +26,8 @@ output.tf works only all is provisioned.
 
 ```
  ![](images/output.png)
+
+
+### Expected cost in Azure for this demo
+There will be a test VM provision as B1ls that is the smallest shape at this moment.(USD 3.8 for a month, hence it will be less than 10 cents for this demo)
+This Azure Terraform will not cost more than 2 dollars with ExpressRT and others unless you let it run for 24 hours or more.
