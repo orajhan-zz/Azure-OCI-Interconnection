@@ -10,6 +10,7 @@ Please refer to https://docs.oracle.com/en/solutions/learn-azure-oci-interconnec
 Your will need Virtual Network Gateway, ExpressRT, Network Security Group, Route table, etc in Azure end. 
 Only thing you need is to change CIDR if needed
 There will be a test VM provision as B1ls that is the smallest shape. 
+![](images/B1ls.png)
 
 1. update provider.tf with your Azure account details
 2. Terraform Plan
