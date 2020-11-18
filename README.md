@@ -15,6 +15,7 @@ Only thing you need is to change CIDR , Region , shape if needed.
 This terraform will use 50Mbps bandwidth for Express Route.
 
 Default CIDR: 10.1.0.0/16
+
 Default Region: Tokyo
 
 ```sh
