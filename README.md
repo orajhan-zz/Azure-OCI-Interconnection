@@ -5,7 +5,7 @@ Please refer to https://docs.oracle.com/en/solutions/learn-azure-oci-interconnec
 
 ![](images/overview.png)
 
-### Prerequisite 
+### Prerequisites in Azure
 
 Your will need Virtual Network Gateway, ExpressRT, Network Security Group, Route table, etc in Azure end. 
 Only thing you need is to change CIDR if needed
