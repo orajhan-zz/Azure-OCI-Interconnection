@@ -35,7 +35,7 @@ output.tf works after only all is provisioned. I experienecd this behavior when 
  2. mv output.tf.bak output.tf
  3. terraform apply
  4. you will see the details as follows
- 5. Copy service Key from the output and paste it when FastConnect is created in Oracle Cloud to complete interconnection between FastConnect and ExpressRT
+ 5. Copy service Key from the output and paste when FastConnect is created in Oracle Cloud
 
 ```
  ![](images/output.png)
@@ -44,7 +44,7 @@ output.tf works after only all is provisioned. I experienecd this behavior when 
 If you want to provision resources in Oracle cloud, you may try to use OKIT where you can get Terraform, Ansible scripts by simply dragging/dropping service icons or directly provision it using Oracle Resource Manager that is managed Terraform service. Please see the videos below to understand what it is. it's pretty cool.  
 Video: https://www.youtube.com/watch?v=7Dg-6RMBbqs&feature=youtu.be&list=PLvlciYga5j3yY-8t5V6DFHy1ecqxOJsrc
 
-Now that I am also one of contributors for OKIT development, please let me know if there is featuer request or any better idea.
+Now that I am also one of contributors for OKIT development, please let me know if there is a feature request or any better idea.
 
 GitHub: https://github.com/oracle/oci-designer-toolkit
 
