@@ -40,8 +40,8 @@ output.tf works after only all is provisioned. I experienecd this behavior when 
 ```
  ![](images/output.png)
 
-### Expected cost in Azure for this demo
-If you want to provision resources in Oracle cloud, you may try to use OKIT where you can get Terraform, Ansible script by dragging/dropping service icons or directly provision it using Oracle Resource Manager that is managed Terraform service. 
+### Do you need to provision Oracle Resources?
+If you want to provision resources in Oracle cloud, you may try to use OKIT where you can get Terraform, Ansible scripts by simply dragging/dropping service icons or directly provision it using Oracle Resource Manager that is managed Terraform service. Please see the videos below to understand what it is. it's pretty cool.  
 Video: https://www.youtube.com/watch?v=7Dg-6RMBbqs&feature=youtu.be&list=PLvlciYga5j3yY-8t5V6DFHy1ecqxOJsrc
 
 Now that I am also one of contributors for OKIT development, please let me know if there is featuer request or any better idea.
