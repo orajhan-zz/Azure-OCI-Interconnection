@@ -32,7 +32,7 @@ output.tf works after only all is provisioned. I experienecd this behavior when 
 
 ```sh
 # workaround
- 1. complete the existing terraform scripts without changing any. Once it's done, please go to step #2.
+ 1. complete the existing terraform. Once it's done, please go to step #2.
  2. mv output.tf.bak output.tf
  3. terraform apply
  4. you will see the details as follows
