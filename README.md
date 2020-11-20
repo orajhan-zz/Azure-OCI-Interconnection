@@ -51,4 +51,6 @@ GitHub: https://github.com/oracle/oci-designer-toolkit
 ### Expected cost in Azure for this demo : USD 0.25 for 1 hr
 This Azure Terraform will not cost more than 1 dollar with ExpressRT and all other resources for 1 hours demo unless you let it run for 24 hours or more.
 There will be a test VM which will be automatically provisioned as B1ls that is the smallest shape at this moment.(USD 3.8 for the entire month as PAYG and I only use less than a hour)
+It usually costs USD 0.25 for my demo. 
+
 ![](images/B1ls.png)
