@@ -28,13 +28,13 @@ Default Region: Tokyo
  ![](images/output2.png)
  
 ### Known issue in Azure Terraform
-output.tf works after only all is provisioned. I experienecd this behavior when using Azure provider. 
+output.tf works after all is provisioned for some reason. I experienecd this behavior only when using Azure provider. 
 
 ```sh
 # workaround
  1. complete the existing terraform. Once it's done, please go to step #2.
  2. mv output.tf.bak output.tf
- 3. terraform apply
+ 3. terraform apply (the same output.tf will just work as expected)
  4. you will see the details as follows
  5. Copy service Key from the output and paste when FastConnect is created in Oracle Cloud
 
