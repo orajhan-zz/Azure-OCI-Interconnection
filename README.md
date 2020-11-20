@@ -25,7 +25,8 @@ Default Region: Tokyo
 4. Log into VM(Azure) 
 5. Conenct to Database(Oracle Cloud) 
 ```
-
+ ![](images/output2.png)
+ 
 ### Known issue in Azure Terraform
 output.tf works after only all is provisioned. I experienecd this behavior when using Azure provider. 
 
