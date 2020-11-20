@@ -1,4 +1,4 @@
-# Azure Oracle Cloud nterconnection
+# Azure Oracle Cloud Interconnection
 
 Oracle has partnered with Microsoft to provide low latency, private connectivity between Oracle Cloud and Microsoft Azure. 
 Please refer to https://docs.oracle.com/en/solutions/learn-azure-oci-interconnect/index.html#GUID-FBE38C70-A4CF-40C5-A37A-121241D21199
@@ -41,7 +41,7 @@ output.tf works after all is provisioned for some reason. I experienecd this beh
 ```
  ![](images/output.png)
 
-### Do you need to provision Oracle Resources in OCI?
+### How to provision resources in OCI?
 If you want to provision resources in Oracle cloud, you may try to use OKIT where you can get Terraform, Ansible scripts by simply dragging/dropping service icons or directly provision it using Oracle Resource Manager that is managed Terraform service. Please see the videos below to understand what it is. it's pretty cool.  
 Video: https://www.youtube.com/watch?v=7Dg-6RMBbqs&feature=youtu.be&list=PLvlciYga5j3yY-8t5V6DFHy1ecqxOJsrc
 
